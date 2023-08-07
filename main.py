@@ -30,8 +30,7 @@ from sqlalchemy import create_engine
 # from sqlalchemy.orm import mapped_column
 # from airflow.providers.postgres.hooks.postgres import PostgresHook
 # from airflow.providers.postgres.operators.postgres import PostgresOperator
-
-default_args = {
+efault_args = {
     'owner': 'superuser',
     'retries': 5,
     'retry_delay': timedelta(minutes=1)
